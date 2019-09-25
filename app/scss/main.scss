@@ -1,0 +1,14 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.header {
+    ul {
+        float: right;
+        li {
+            display: inline-block;
+        }
+    }
+}

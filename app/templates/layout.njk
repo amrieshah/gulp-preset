@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>
+			{% block title %} 
+			{% endblock %}
+		</title>
+		<link rel="stylesheet" href="css/main.css">    
+	</head>
+	<body>
+		{% include "partials/header.njk" %}
+		{% block content %} {% endblock %}
+	</body>
+</html>

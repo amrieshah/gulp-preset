@@ -1,0 +1,5 @@
+node_modules/
+.lastrun
+package-lock.json
+dist/**
+app/images/**
